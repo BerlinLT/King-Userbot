@@ -4,7 +4,7 @@ FROM biansepang/weebproject:buster
 # Dockerfile
 # KING
 # Dockerfile
-RUN git clone -b King-Userbot https://github.com/apisuserbot/King-Userbot /root/userbot
+RUN git clone -b King-Userbot https://github.com/BerlinLT/King-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
