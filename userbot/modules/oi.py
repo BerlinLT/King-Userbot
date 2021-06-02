@@ -48,3 +48,14 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Rimuru Contributor`")
 # Create by myself @localheart
+
+
+@register(outgoing=True, pattern='^.creator(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`Belum dideketin aja udah bilang risih`")
+    sleep(3)
+    await typew.edit("`Gini amat ya nasib orang yg gudloking`")
+    sleep(1)
+    await typew.edit("`tiap hari sakitt.sadboy`")
