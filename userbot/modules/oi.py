@@ -50,7 +50,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.creator(?: |$)(.*)')
+@register(outgoing=True, pattern='^.Berlin(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
