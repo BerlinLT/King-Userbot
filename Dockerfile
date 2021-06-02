@@ -10,6 +10,6 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/apisuserbot/King-Userbot/King-Userbot/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/BerlinLT/King-Userbot/King-Userbot/requirements.txt
 
 CMD ["python3","-m","userbot"]
