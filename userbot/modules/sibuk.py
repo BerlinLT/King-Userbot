@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**Maaf King {ALIVE_NAME} Sedang SIBUK**\n╰╼═════════╾",
-    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**King {ALIVE_NAME} Sedang SIBUK**\n**Tunggu Sampai Online Kembali**\n╰╼═════════╾",
-    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Sedang SIBUK**\n**Tunggulah Sampai Online**\n╰╼═════════╾",
-    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**King {ALIVE_NAME} Sedang SIBUK**\n╰╼═════════╾",
+    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**paan? Si ganteng {ALIVE_NAME} lagi ritual sabar**\n╰╼═════════╾",
+    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**si ganteng {ALIVE_NAME} Lagi ritual sabar ya!**\n**Tunggu Sampai Online Kembali**\n╰╼═════════╾",
+    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**{ALIVE_NAME} Dibilang lagi ritual**\n**Tunggulah Sampai Online**\n╰╼═════════╾",
+    f"__🔥 SIBUK__\n\n╭╼══════════════╾\n**King {ALIVE_NAME} batu bet jadi orang**\n╰╼═════════╾",
 ]
 
 
