@@ -58,6 +58,12 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`𝑼𝒅𝒂𝒉 𝒕𝒂𝒖 𝒅𝒊 𝒔𝒊𝒂²𝒊𝒏 𝒎𝒂𝒔𝒊𝒉 𝒂𝒋𝒂 𝒃𝒆𝒓𝒋𝒖𝒂𝒏𝒈...`")
+    
+    
+    @register(outgoing=True, pattern='^.g(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`kaga, gua kan ganteng`")
 
 
 CMD_HELP.update({
@@ -69,5 +75,9 @@ CMD_HELP.update({
 \n\n⚡𝘾𝙈𝘿⚡`.S`\
 \nPenjelasan: Untuk menjadi buaya🐊.\
 \n\n⚡𝘾𝙈𝘿⚡`.J`\
-\nPenjelasan: Untuk jdi orang jahat 😈."
+\nPenjelasan: Untuk jdi orang jahat 😈.\
+\n\n⚡𝘾𝙈𝘿⚡`.M`\
+\nPenjelasan: galau 😈.\
+\n\n⚡𝘾𝙈𝘿⚡`.G`\
+\nPenjelasan: yg penting pede yakkann 😈."
 })
