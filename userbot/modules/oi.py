@@ -57,7 +57,7 @@ async def typewriter(typew):
     await typew.edit("`Belum dideketin aja udah bilang risih`")
     sleep(3)
     await typew.edit("`Gini amat ya nasib orang yg gudloking`")
-    sleep(1)
+    sleep(3)
     await typew.edit("`tiap hari sakitt.sadboy`")
 
 
@@ -68,5 +68,5 @@ async def typewriter(typew):
     await typew.edit("`Gak ush dideketin`")
     sleep(3)
     await typew.edit("`Dia punya Prinss`")
-    sleep(1)
+    sleep(3)
     await typew.edit("`Jangan nakal ya cwe cwe`")
