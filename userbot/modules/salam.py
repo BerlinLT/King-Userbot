@@ -54,6 +54,12 @@ async def typewriter(typew):
     await typew.edit("`Gakmau ah,kamu jelek😅...`")
 
 
+@register(outgoing=True, pattern='^.m(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`𝑼𝒅𝒂𝒉 𝒕𝒂𝒖 𝒅𝒊 𝒔𝒊𝒂²𝒊𝒏 𝒎𝒂𝒔𝒊𝒉 𝒂𝒋𝒂 𝒃𝒆𝒓𝒋𝒖𝒂𝒏𝒈...`")
+
+
 CMD_HELP.update({
     "salam":
     "⚡𝘾𝙈𝘿⚡`.P`\
