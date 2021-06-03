@@ -316,7 +316,7 @@ async def typewriter(typew):
     await typew.edit("`Target Berhasil Tersantet Online,Maap Cuman Bercanda:v`")
 
 
-@register(outgoing=True, pattern=r'^\.santet(?: |$)(.*)')
+@register(outgoing=True, pattern=r'^\.pelet(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Berlin Telah Mengaktifkan Perintah pelet Online...⚡`")
